@@ -109,3 +109,118 @@ nav a{
 .centered{
 }
 
+.adv{
+    background-image: url(pictures/SoT_wallpaper.jpg);
+    background-attachment: fixed;   
+}
+
+.adventures{
+    color: white;
+    font-size: 30pt;
+    margin-left: 10px;
+}
+
+body{
+    margin: 0;
+}
+
+main{
+    margin: 0;
+}
+
+nav{
+    margin: 0;
+}
+
+a>img{
+    margin-left: 10px;
+}
+
+.advhead{
+    background-image: url(pictures/SoT_treasureheader.jpg_large);
+}
+
+header{
+    padding: 0;
+}
+
+.alcim{
+    margin-left: 10px;
+}
+
+.hajo{
+    text-align: center;   
+}
+
+.tipus{
+    font-size: 35pt;
+}
+
+
+
+.sloop{
+    justify-content: center;
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.tipusszoveg{
+    font-size: 20pt;
+    padding-right: 30px;
+    padding-top: 200px;
+}
+
+.tipusszoveggalleon{
+    font-size: 20pt;
+    padding-right: 30px;
+    padding-top: 150px;
+}
+
+.brigantine{
+    justify-content: center;
+    width: 50%;
+    height: auto;
+    float: right;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#brig{
+    margin-top: 300px;
+}
+
+.galleon{
+    justify-content: center;
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.hajohatter{
+    background-image: url(pictures/SoT_shipbg.png);
+    background-attachment: fixed;
+}
+
+.fooldal{
+    margin-left: 20px;
+    text-align: left;
+    font-size: 20pt;
+}
+
+.cehek{
+    width: 70%;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.mapbg{
+    background-image: url(pictures/SoT_map2.webp);
+    background-attachment: fixed;
+}
+
