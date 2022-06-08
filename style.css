@@ -35,9 +35,9 @@ html{
 }
 
 .doboz{
-    background-color: lightgrey;
+    background-color: lightblue;
     width: 100px;
-    border: 15px solid black;
+    border: 15px solid blue;
     padding: 50px;
     margin: auto;
 }
