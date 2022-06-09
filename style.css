@@ -4,8 +4,8 @@ html{
 
 .grid-container{
     display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-template-rows: repeat(5,auto);
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(5,100px);
     grid-auto-flow: column;
     gap: 10px;
     justify-content: center;
@@ -13,7 +13,7 @@ html{
 }
 
 .grid-item{
-    border: 2px solid black;
+    border: 2px solid white;
     gap: 10px;
     text-align: center;
     vertical-align: middle;
@@ -26,8 +26,11 @@ html{
     border-radius: 30%;
 }
 
+
+
 .grid-item:hover{
     background-color: burlywood;
+    cursor: pointer;
 }
 
 .grid-item:active{
@@ -106,8 +109,6 @@ nav a{
     font-size: 25px;    
 }
 
-.centered{
-}
 
 .adv{
     background-image: url(pictures/SoT_wallpaper.jpg);
@@ -124,12 +125,12 @@ body{
     margin: 0;
 }
 
-main{
-    margin: 0;
-}
+
 
 nav{
     margin: 0;
+    position: sticky;
+    top: 0px;
 }
 
 a>img{
@@ -149,7 +150,12 @@ header{
 }
 
 .hajo{
-    text-align: center;   
+    text-align: center; 
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-left: 10%;
+    width:80%;
+    color: white;
+    border-radius: 2%; 
 }
 
 .tipus{
@@ -208,9 +214,13 @@ header{
 }
 
 .fooldal{
-    margin-left: 20px;
     text-align: left;
     font-size: 20pt;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-left: 20%;
+    width:60%;
+    color: white;
+    border-radius: 2%;
 }
 
 .cehek{
@@ -230,6 +240,7 @@ header{
 
 .hm{
     font-size: 26pt;
+    color:white;
 }
 
 .we{
@@ -238,17 +249,71 @@ header{
     height: auto;
     margin-left: 15%;
     margin-right: 15%;
+    margin-bottom: 10%;
 }
 
-.fooldal{
-    background-color: rgba(0, 0, 0, 0.4);
-    margin-left: 300px;
-    margin-right: 350px;
-    width:80%;
-    color: white;
-}
+
 
 p>a{
     text-decoration: none;
     color: lightgray;
 }
+
+th:hover, td:hover{
+    background-color: black;
+    color: white;
+}
+
+.webody{
+    background-image: url(pictures/rsz_1sot_wewp.jpg);
+    background-attachment: fixed;
+}
+
+#krakenkep{
+    margin-bottom: 200px;
+}
+
+hr{
+    color: black;
+}
+
+.extra, .ar{
+    border: 0px;
+}
+
+
+.box{
+    margin: auto;
+    width: 300px;
+    height: 100px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 15px;
+    background-color: darkgrey;
+    box-shadow: 10px 10px black;
+    border-radius: 30%;   
+}
+
+.box:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+.box:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+td{
+    padding: 5px;
+    
+}
+
+p{
+    line-height: 1.6;
+}
+
+.h1s{
+    margin-bottom: 250px;
+}
+
