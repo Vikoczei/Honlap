@@ -217,6 +217,9 @@ header{
     width: 70%;
     height: auto;
     margin-bottom: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .mapbg{
@@ -224,3 +227,28 @@ header{
     background-attachment: fixed;
 }
 
+
+.hm{
+    font-size: 26pt;
+}
+
+.we{
+    justify-content: center;
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.fooldal{
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-left: 300px;
+    margin-right: 350px;
+    width:80%;
+    color: white;
+}
+
+p>a{
+    text-decoration: none;
+    color: lightgray;
+}
