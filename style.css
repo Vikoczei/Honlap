@@ -291,17 +291,21 @@ hr{
     padding: 15px;
     background-color: darkgrey;
     box-shadow: 10px 10px black;
-    border-radius: 30%;   
+    border-radius: 30%;
+    transition: width 3s;   
 }
 
 .box:hover{
     background-color: grey;
     cursor: pointer;
+    width:200px;
 }
 
 .box:active{
+    
     box-shadow: 0 5px #666;
     transform: translateY(4px);
+    
 }
 
 td{
@@ -315,5 +319,14 @@ p{
 
 .h1s{
     margin-bottom: 250px;
+}
+
+.kep{
+    width: 65%;
+    height: auto;
+    margin-bottom: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
